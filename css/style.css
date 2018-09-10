@@ -106,7 +106,7 @@ main .quienes .quienes-titulo{
     font-weight: 600;
 }
 
-main .quienes .sobre-mi{
+main .quienes .img-sobre-mi{
     width: 20%;
     margin-bottom:10px;
 }
@@ -247,6 +247,42 @@ footer .contacto  input[type="submit"]:hover{
     height:200px;
     background: #000;
 }
+
+#txtContacto {
+    font-size: 20px;
+}
+
+footer .redes-sociales {
+    margin:60px 0;
+}
+
+footer .contenido-redes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .contenido-redes .fotos-redes {
+    width: 2%;
+    text-align: center;
+}
+
+/* //redes social */
+footer .redes-sociales{
+    margin:60px 0;  
+}
+footer .contenido-cajas-redes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .redes-sociales .contenido-cajas-redes .fotos-redes{
+    width: 30%;
+    text-align: center;
+    margin:10px 0; 
+}
+
+
 
 @media screen and (max-width:760px){
     header .menu{
