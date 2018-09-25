@@ -34,7 +34,9 @@ body {
     padding: 60px 60px 75px 100px;
 }
 img.avatar {
-    border-radius: 50%
+    border-radius: 50%;
+    margin:10px auto;
+	display:block;
 }
 #aboutMe-content {
     font-size: 18px;
