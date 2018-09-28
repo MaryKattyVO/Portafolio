@@ -19,7 +19,11 @@ a:hover {
 .text-primary {
   color: #fed136 !important;
 }
-
+#avatar {
+  border-radius: 50%;
+  margin:10px auto;
+  display:block;
+}
 h1,
 h2,
 h3,
@@ -31,7 +35,7 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 section h2.section-heading {
