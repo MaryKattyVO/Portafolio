@@ -3,8 +3,6 @@ body {
     color: #3B3939;
 }
 #header {
-    /* padding: 50px 0 30px 0;
-    margin-top:40px; */
     background-image: url(../img/header.jpg);
     color: white;
     width: 100%;
@@ -14,11 +12,7 @@ body {
     background-size: cover;   
 }
 .header-content {
-    /* font-weight: bold;
-    text-align: center; */
     color: white;
-    /* padding-top: 50px;
-    padding-bottom: 50px; */
     font-family: 'Merriweather', serif;
 
 }
@@ -35,8 +29,6 @@ p{
     background-color: #EFEF21;
     font-family: 'Merriweather', sans-serif;
 }
-
-/* ------------------------------------------------------ */
 #aboutMe {
     padding-top: 70px;
     background-color: #f1f1f1;
@@ -54,14 +46,10 @@ p{
 .titleBlandas {
     font-family: 'Merriweather', serif;
 }  
-/* -------------------------------------------------- */
 #titleSkills {
-    /* background-color: #f1f1f1;
-    padding: 60px 60px 75px 100px; */
     font-family: 'Merriweather', serif;
 }
-/* -------------------------------------------------- */
-#titleTecnico {
+#titleTecnico , .titlePortfolio{
     font-family: 'Merriweather', serif;
 }
 .contentTecnico {
@@ -79,6 +67,7 @@ p{
 
 #portfolio {
     padding-top: 60px;
+    padding-bottom: 90px;
     background-color: #f1f1f1;
 }
 #titleContact {
