@@ -2,435 +2,333 @@
 <html lang="en">
 
 <head>
+    <title>Front-end Mary Katty</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- FUENTE DE GOOGLE  -->
+    <!-- FUENTE TÍTULOS -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+    <!-- LINK BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 
-  <title>Front-end MaryKattyVO</title>
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Abel|Pacifico" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico|Satisfy" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Pacifico|Satisfy" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Abel|Pacifico" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico|Satisfy" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Pacifico|Satisfy" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/agency.min.css" rel="stylesheet">
-
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body id="page-top">
+<body>
+    <!-- ********************************** START THE CODE    ***************************** -->
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Mary Katty VO</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#header">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#content">Sobre mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contáctame</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- NAVIGATION -->
+    <!-- fixed-top: para tener navegacion fija en la parte superior -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">M&K</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#header">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades-blandas">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <!-- Header -->
-  <header class="masthead" id="header">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-heading" style="font-family: Lobster Two, cursive">Mary Katty Vicuña Oré</div>
-        <div class="intro-lead-in" style="font-family: Lobster Two, cursive">Front-end Developer | Ingeniera Informática</div>
-        <a class="btn bg-primary btn-round text-light btn-lg btn-rised" href="#content">Ver más</a>
-      </div>
-    </div>
-  </header>
-  <!-- MAIN -->
-  <main id="content">
-    <!-- ABOUT ME -->
-    <section id="aboutMe" style="background-color: #f1f1f1">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="aboutMe">
-              <h2 class="section-heading text-center">UN POCO ACERCA DE MÍ</h2>
+    <!-- HEADER -->
+    <header id="header" class="pt-5 pb-5 mt-0 align-items-center d-flex bg-dark">
+        <!-- mt-5 :margen top -5 dara espacio -->
+        <div class="container-fluid mt-5">
+            <div class="row justify-content-center align-items-center d-flex text-center h-100">
+                <div class="col-md-12 col-md-8  h-50">
+                    <!-- header content:para poder animacion -->
+                    <div class="header-content">
+                        <!-- display-4: para dar tamaño al texto -->
+                        <h1 class="display-3 mb-2 mt-4">Hola, soy Mary Katty</h1>
+                        <p class="h2 mt-4 mb-5">Ingeniera Informática & Frond-end Developer </p>
+                        <!-- btn lg: para dar mas tamaño al boton -->
+                        <a id="btnStart" href="#aboutMe" class="btn btn-lg active">Saber más de mí</a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 mt-5">
-            <div class="aboutMe-content-rigth">
-              <p id="aboutMe-content">
-                El ser una persona autodidacta y muy curiosa me ha permitido resolver problemas para el desarrollo de proyectos a nivel personal
-                y en equipo.Cada proyecto que realizo es a medida pensando siempre en la necesidades e interacción del usuario.En
-                un futuro aspiro a ser una Full Stack Developer y poder desarrollarme a nivel profesional aplicando mis conocimientos
-                y experiencias adquiridas en el desarrollo de proyectos.
-              </p>
+    </header>
+
+    <!-- MAIN -->
+    <section id="aboutMe">
+        <div class="container mt-1">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 id="titleAboutMe" class="text-center">Un poco acerca de mí</h2>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6 mt-5">
-            <div class="aboutMe-content-rigth">
-              <img class="avatar" src="img/perfil.jpg" alt="">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-3">
+                        <img class="img-fluid rounded-circle" src="img/perfil.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-3">
+                        <p id="aboutMe-content">
+                            Hola, me llamo Mary Katty, apasionada de la tecnología y el código.Soy una persona autodidacta y muy curiosa lo cual me ha
+                            permitido resolver problemas para el desarrollo de proyectos mediante la metodología ágil.
+                            <br> Busco que cada proyecto que realizo me rete técnicamente pensando siempre en la necesidades
+                            e interacción del usuario.<br>
+                            En un futuro aspiro a ser una Full Stack Developer y especializarme en Seguridad Informática y así poder
+                            desarrollar sistemas que sean más robustos e inviolables.
+                        </p>
+                        <p>
+                            <a id="btnCV" href="img/CV-MARY KATTYVICUÑA ORÉ.pdf" download="cvMaryKatty" class="botones btn btn-lg active" target="_blank">Descargar CV</a>
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-12">
-            <a href="https://drive.google.com/file/d/14W743X5V-b5pU1udvIfcnuULeXNLa2_q/view?usp=sharing" class="btn bg-primary btn-round text-light btn-lg btn-rised"
-              target="_blank">Descargar CV</a>
-          </div>
+
         </div>
-      </div>
     </section>
+
     <!-- HABILIDADES BLANDAS -->
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">HABILIDADES BLANDAS</h2>
-            <h3 class="section-subheading text-muted">Habilidades que aplico para el desarrollo de proyectos.</h3>
-          </div>
+    <section id="habilidades-blandas">
+        <div class="container mt-3">
+            <!-- TÍTULO DE HABILIDADES -->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 id="titleSkills">Habilidades Blandas</h2>
+                </div>
+            </div>
+            <!-- LISTA DE HABILIDADES -->
+            <div class="row text-center mt-3">
+                <div class="col-md-4 mt-4">
+                    <img src="img/blandas/equipo.png">
+                    <h4 class="titleBlandas mt-4">Trabajo en equipo</h4>
+                    <p class="mt-2">El trabajo en equipo me ha permitido poder desarrollar de manera integra y colaborativa productos digitales
+                        de calidad.</p>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <img src="img/blandas/autodidacta.png">
+                    <h4 class="titleBlandas mt-4">Autodidacta</h4>
+                    <p class="mt-2">Ser una persona curiosa y autodidacta me ha permitido conocer nuevas herramientas tecnológicas para el
+                        desarrollo de productos digitales y poder adaptarme al mundo cambiante y acelerado de la tecnología.
+                    </p>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <img src="img/blandas/presion.png">
+                    <h4 class="titleBlandas mt-4">Trabajo bajo presión</h4>
+                    <p class="mt-2">Mi estancia en Laboratoria y el aprendizaje y aplicaciòn de la metodología ágil me ha permitido desarrollar
+                        productos digitales en tiempos estimados y cortos.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/blandas/equipo.png" alt="">
-            </span>
-            <h4 class="service-heading">Trabajo en Equipo</h4>
-            <p class="text-muted">El trabajo en equipo me ha permitido poder desarrollar de manera integra y colaborativa productos digitales de
-              calidad.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/blandas/autodidacta.png" alt="">
-            </span>
-            <h4 class="service-heading">Autodidacta</h4>
-            <p class="text-muted">Ser una persona curiosa y autodidacta me ha permitido conocer nuevas herramientas tecnológicas para el desarrollo
-              de productos digitales y poder adaptarme al mundo cambiante y acelerado de la tecnología.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/blandas/presion.png" alt="">
-            </span>
-            <h4 class="service-heading">Trabajo bajo Presión</h4>
-            <p class="text-muted">Mi estancia en Laboratoria y el aprendizaje y aplicaciòn de la metodología ágil me ha permitido desarrollar productos
-              digitales en tiempos estimados y cortos.</p>
-          </div>
-        </div>
-      </div>
     </section>
-    <!-- HABILIADES TÉCNICAS -->
+
+    <!-- HABILIDADES TÉCNICAS  -->
     <section id="habilidades-tecnicas">
-      <div class="container">
-        <!-- TÍTULO DE HABILIDADES -->
-        <div class="row">
-          <div class="col-lg-12 text-center mt-5">
-            <h2 class="section-heading">HABILIDADES TÉCNICAS</h2>
-            <h3 class="section-subheading text-muted">Habilidades que aplico para el desarrollo de productos digitales.</h3>
-          </div>
-        </div>
-        <!-- LISTA DE HABILIDADES -->
-        <div class="row text-center">
-          <div class="col-md-3 mt-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/tech/javascript.png" class="fa fa-circle fa-stack-2x text-primary">
-              <h4 class="service-heading ">JavaScript</h4>
-            </span>
-          </div>
-          <div class="col-md-3 mt-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/tech/html-5.png" class="fa fa-circle fa-stack-2x text-primary">
-              <h4 class="service-heading ">HTML5</h4>
-            </span>
-          </div>
-          <div class="col-md-3 mt-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/tech/css.png" class="fa fa-circle fa-stack-2x text-primary">
-              <h4 class="service-heading ">CSS</h4>
-            </span>
-          </div>
-          <div class="col-md-3 mt-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/tech/bootstrap.png" class="fa fa-circle fa-stack-2x text-primary">
-              <h4 class="service-heading ">Bootstrap</h4>
-            </span>
-          </div>
-          <div class="col-md-3 mt-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/tech/angular.png" class="fa fa-circle fa-stack-2x text-primary">
-              <h4 class="service-heading ">Angular</h4>
-            </span>
-          </div>
-          <div class="col-md-3 mt-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/tech/git.png" class="fa fa-circle fa-stack-2x text-primary">
-              <h4 class="service-heading ">Git</h4>
-            </span>
-          </div>
-          <div class="col-md-3 mt-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/tech/nodejs.png" class="fa fa-circle fa-stack-2x text-primary">
-              <h4 class="service-heading ">Nodejs</h4>
-            </span>
-          </div>
-          <div class="col-md-3 mt-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/tech/firebase.png" class="fa fa-circle fa-stack-2x text-primary">
-              <h4 class="service-heading ">Firebase</h4>
-            </span>
-          </div>
-          <div class="col-md-3 mt-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/tech/cshart.png" class="fa fa-circle fa-stack-2x text-primary">
-              <h4 class="service-heading ">CShart</h4>
-            </span>
-          </div>
-          <div class="col-md-3 mt-4">
-            <span class="fa-stack fa-4x">
-              <img src="img/tech/jest.png" class="fa fa-circle fa-stack-2x text-primary">
-              <h4 class="service-heading ">Jest</h4>
-            </span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- IMÁGENES DE PROYECTOS -->
-    <section class="bg-light" id="portfolio" style="background-color: #f1f1f1">
-      <div class="container ">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Proyectos</h2>
-            <h3 class="section-subheading text-muted">Estos son algunos de mis proyectos</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
+        <div class="container mt-3">
+            <!-- TÍTULO DE HABILIDADES -->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 id="titleTecnico">Habilidades Técnicas</h2>
                 </div>
-              </div>
-              <img class="img-fluid" src="img/proyectos/editores-codigo-javascript.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>MARKDOWN</h4>
             </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
+            <!-- LISTA DE HABILIDADES -->
+            <div class="container mt-5">
+                <div class="row text-center">
+                    <div class="col-6 col-md-3">
+                        <img src="img/tech/javascript.png">
+                        <p class="contentTecnico">JavaScript</p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img src="img/tech/html-5.png">
+                        <p class="contentTecnico">HTML5</p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img src="img/tech/css.png">
+                        <p class="contentTecnico">CSS</p>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img src="img/tech/bootstrap.png">
+                        <p class="contentTecnico">Bootstrap</p>
+                    </div>
                 </div>
-              </div>
-              <img class="img-fluid" src="img/proyectos/redsocial.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>RED SOCIAL HAPPY BABIES</h4>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-6 col-md-3">
+                            <img src="img/tech/git.png">
+                            <p class="contentTecnico">Git</p>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <img src="img/tech/nodejs.png">
+                            <p class="contentTecnico">Nodejs</p>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <img src="img/tech/firebase.png">
+                            <p class="contentTecnico">Firebase</p>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <img src="img/tech/jest.png">
+                            <p class="contentTecnico">Jest</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <img class="img-fluid" src="img/proyectos/data.png" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>DATA DASHBOARD</h4>
             </div>
-          </div>
         </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" style="background-color: #ffff">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase" style="color: black">CONTÁCTAME</h2>
-            <h3 class="section-subheading text-muted">Puedes contactarme por alguno de estos medios</h3>
-          </div>
+    <!-- PORTAFOLIO -->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <!-- Page Heading -->
+            <h2 id="titleProject" class="text-center">Proyectos</h2>
+            <p class="text-center">Estos son algunos de los proyectos que he realizado aplicando metodología ágiles</p>
+            <div class="row pt-5" style="padding-bottom: 50px">
+                <div class="col-lg-4 col-sm-6 portfolio-item">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img class="card-img-top" src="img/proyectos/redsocial.jpg" alt="">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="https://marykattyvo.github.io/lim-2018-05-bc-core-pm-socialnetwork/src/" class="botones btn btn-lg active" target="_blank">
+                                    Demo </a>
+                                <a href="https://github.com/MaryKattyVO/lim-2018-05-bc-core-pm-socialnetwork" class="botones btn btn-lg active" target="_blank">
+                                    Código </a>
+                            </h4>
+                            <p class="card-text">Happy Babyes es una red social que se presenta como una solución para los padres millennials,
+                                ya que en esta red social podrás postear tus dudas que tengas respecto al cuidado de tu bebé
+                                de 0 a 5 años, y tendrás a un red de padres que podran ayudarte.</br></br>
+                                Este proyecto me permitió aprender en un tiempo corto Firebase, HTML5, JS, DOM.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 portfolio-item">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img class="card-img-top" src="img/proyectos/data.jpg" alt="">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="https://marykattyvo.github.io/lim-2018-05-bc-core-pm-datadashboard/src/" class="botones btn btn-lg active" target="_blank">
+                                    Demo </a>
+                                <a href="https://github.com/MaryKattyVO/lim-2018-05-bc-core-pm-datadashboard" class="botones btn btn-lg active" target="_blank">
+                                    Código </a>
+                            </h4>
+                            <p class="card-text">Data Dashboard nació de la necesidad que presentaban las personas encargadas de verificar el
+                                progreso de las alumnas de Laboratoria,ya que tenian que llevar toda la informaciòn obtenida
+                                en un excel y esto no les permitia realizar toma de decisiones en tiempos cortos.</br></br>
+                                El desarrollo de este proyecto me permitió aprender JSON, HTML5, JS, Test, CSS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 portfolio-item">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img class="card-img-top" src="img/proyectos/codigo.jpg" alt="">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                <a href="https://github.com/MaryKattyVO/lim20181-Track-FE-markdown-list" class="botones btn btn-lg active" target="_blank">
+                                    Demo </a>
+                                <a href="https://github.com/MaryKattyVO/lim20181-Track-FE-markdown-list" class="botones btn btn-lg active" target="_blank">
+                                    Código </a>
+
+                            </h4>
+                            <p class="card-text">Mardown es una aplicación que permite obtener los link rotos y válidos de 
+                                archivos con formatos md.</br></br>
+                                El desarrollo de este pryecto me permitió aprender Jest, HTML,NPM, Nodejs.
+                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <ul>
-              <li class="list-inline-item">
-                <a href="#">
-                  <img src="img/redes sociales/simbolo-de-un-auricular-de-telefono-en-un-circulo.png" alt="">
-                  <p>949402665</p>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <img src="img/redes sociales/gmail.png" alt="">
-                  <p>mkvicunaore@gmail.com</p>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/MaryKattyVO" target="_blank">
-                  <img src="img/redes sociales/github.png" alt="">
-                  <p></p>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/mary-katty-vicuna-ore/" target="_blank">
-                  <img src="img/redes sociales/linkedin.png" alt="">
-                  <p>Puedes buscarme</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </section>
 
+
+    <!-- CONTACT -->
+    <section id="contact" style="padding-top: 50px; padding-bottom: 50px">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 id="titleContact">Contáctame</h2>
+                    <p>Ponte en contacto conmigo e iniciemos un proyecto juntos</p>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+                
+                <div class="col-6 col-md-3 p-5">
+                    <a href="https://github.com/MaryKattyVO" target="_blank">
+                        <img src="img/redes sociales/github.png" alt="">
+                        <p>Ve mi código</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 p-5">
+                    <a href="https://www.linkedin.com/in/mary-katty-vicuna-ore/" target="_blank">
+                        <img src="img/redes sociales/linkedin.png" alt="">
+                        <p>Búscame</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 p-5">
+                        <a href="#">
+                            <img src="img/redes sociales/gmail.png" alt="">
+                            <p>mkvicunaore@gmail.com</p>
+                        </a>
+                    </div>
+                <div class="col-6 col-md-3 p-5">
+                    <a href="#">
+                        <img src="img/redes sociales/simbolo-de-un-auricular-de-telefono-en-un-circulo.png" alt="">
+                        <p>949402665</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
-    <footer style="background-color: #353333">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright " style="color: #f1f1f1 ">Copyright &copy; 2018 Mary Katty Vicuña Oré</span>
-          </div>
+    <footer style="background-color: #353333 ; padding-top: 50px; padding-bottom: 50px">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <span class="copyright " style="color: #f1f1f1 ">Copyright &copy; 2018 Mary Katty Vicuña Oré</span>
+                </div>
+            </div>
         </div>
-      </div>
-      </div>
     </footer>
 
-    <!-- MODALES -->
-    <!-- MODAL PROYECTO UNO -->
-    <div class="modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="exampleModalLongTitle">MARKDOWN</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <h4>Descripción</h4>
-            <p>Es una librería que permite encontrar archivos con extensión .md y poder extraer los links rotos y válidos.
-            </p>
-            <h4>Herramientas Tecnológicas</h4>
-            <p>JS, HTML, CSS, Github, Git, Jest/p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn bg-primary btn-round text-light btn-lg btn-rised">
-              <a href="https://github.com/MaryKattyVO/lim20181-Track-FE-markdown-list" target="_blank">Demo</a>
-            </button>
-            <button type="button" class="btn bg-primary btn-round text-light btn-lg btn-rised">
-              <a href="https://github.com/MaryKattyVO/lim20181-Track-FE-markdown-list" target="_blank">Código</a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- MODAL PROYECTO DOS -->
-    <div class="modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="exampleModalLongTitle">HAPPY BABIES(RED SOCIAL)</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <h4>Descripción</h4>
-            <p>Esta red social es para tratar temas relacionados a las etapas del crecimiento del bebé (desde el inicio del
-              embarazo a los 5 años), en la que madres o padres aportan testimonios, datos, tips, talleres. Un espacio para
-              que todos ellos puedan crecer juntos. El producto está dirigido a madres o padres millennials (nacidos entre
-              1983 - 2000), que de por sí ya tienen una facilidad con el uso de la tecnología, tomándolo en cuenta para que
-              puedan compartir conocimientos y contribuir con información útil para cuidados del bebé.
-            </p>
-            <h4>Herramientas Tecnológicas</h4>
-            <p>JS, HTML, CSS, FireBase, Github, Git</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn bg-primary btn-round text-light btn-lg btn-rised">
-              <a href="https://marykattyvo.github.io/lim-2018-05-bc-core-pm-socialnetwork/src/" target="_blank">Demo</a>
-            </button>
-            <button type="button" class="btn bg-primary btn-round text-light btn-lg btn-rised">
-              <a href="https://github.com/MaryKattyVO/lim-2018-05-bc-core-pm-socialnetwork" target="_blank">Código</a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- MODAL PROYECTRO TRES -->
-    <div class="modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="exampleModalLongTitle">DATA DASHBOARD</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <h4>Descripción</h4>
-            <p>Esta página web permite visualizar el proceso de las alumnas de Laboratoria, y además poder visualizar el contenido
-              de acuerdo al filtrado de información de forma ascendente y descente ya sea por nombres, porcentajes obtenidos,
-              y el avance de lecturas que realizan.
-            </p>
-            <h4>Herramientas Tecnológicas</h4>
-            <p>JS, HTML, CSS, Json, Github, Git</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn bg-primary btn-round text-light btn-lg btn-rised">
-              <a href="https://marykattyvo.github.io/lim-2018-05-bc-core-pm-datadashboard/src/" target="_blank">Demo</a>
-            </button>
-            <button type="button" class="btn bg-primary btn-round text-light btn-lg btn-rised">
-              <a href="https://github.com/MaryKattyVO/lim-2018-05-bc-core-pm-datadashboard" target="_blank">Código</a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
-
+    <!-- ************************************ END THE CODE    ******************************* -->
+    <!-- BOOTSTRAP 4 SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
