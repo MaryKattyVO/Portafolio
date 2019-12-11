@@ -1,0 +1,40 @@
+#titleSkills {
+    font-size: 27px;
+    @include desktop {
+        font-size: 35px;
+    }
+}
+#titleTecnico {
+    font-size: 27px;
+    @include desktop {
+        font-size: 35px;
+    }
+}
+#habilidades-tecnicas {
+    padding: 0 16px !important;
+    @include desktop {
+        padding: 0 60px !important;
+    }
+}
+#habilidades-blandas ,#habilidades-tecnicas {
+    padding-top: 60px;
+    padding-bottom: 60px !important;
+} 
+.titleBlandas {
+    font-family: 'Merriweather', serif;
+}  
+#titleSkills {
+    font-family: 'Merriweather', serif;
+}
+.contentTecnico {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 20px;
+}
+.habilidades-tecnicas {
+    &__img {
+        width: 80px;
+    }
+}
+.habilidades-tecnicas__p {
+    margin-top: 30px !important;
+}

@@ -1,0 +1,45 @@
+//colors
+$black: #000000 !default;
+$black-laigth: #333333 !default;
+$white: #ffffff !default;
+$gris-dark: #505050 !default;
+$gris-medium: #9b9b9b !default;
+$gris: #f4f4f4 !default;
+$yellow: #fff520 !default;
+$negro: #272727 !default;
+$celeste: #00BEE0 !default;
+
+
+//fonts
+$base-font-family: 'BentonSans';
+$beton: $base-font-family;
+
+$title-font-family: 'Oswald', sans-serif;
+$oswald: $title-font-family;
+
+$base-font-size: 18px !default;
+$base-font-weight: 300 !default;
+
+//misc
+$gutter-bootstrap: 15px !default;
+
+$link-color: #847931 !default;
+$link-hover-color: darken( #847931, 10% ) !default;
+
+//sizes
+$screen-xs-min: 480px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-md-ex-min: 1100px;
+$screen-lg-min: 1200px;
+
+
+$screen-xs-max: 479px;
+$screen-sm-max: 767px;
+$screen-md-max: 991px;
+$screen-lg-max: 1199px;
+$screen-xxs-max: 375px;
+
+$screen-sm-width: 750px;
+$screen-md-width: 970px;
+$screen-lg-width: 1170px;

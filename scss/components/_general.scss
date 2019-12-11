@@ -1,0 +1,33 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #3B3939;
+}
+
+p{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #000000;
+}
+#btnStart , #btnCV , .botones{
+    color: #000000;
+    background-color: #EFEF21;
+    font-family: 'Merriweather', sans-serif;
+    &:hover {
+        cursor: pointer;
+        opacity: .8;
+        box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.173149);
+    }
+}
+#titleTecnico , .titlePortfolio{
+    font-family: 'Merriweather', serif;
+}
+.botones {
+    color: #000000;
+    background-color: #EFEF21;
+}
+#titleContact {
+    font-family: 'Merriweather', serif;
+    color: #000000;
+}
+* {
+    scroll-behavior: smooth;
+}

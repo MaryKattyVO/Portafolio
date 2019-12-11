@@ -1,0 +1,51 @@
+.img-fluid {
+    width: 50% !important;
+    margin: auto !important;
+    box-shadow: 0 12px 40px rgba(0,0,0,.15);
+    @include desktop {
+        width: 70% !important;
+    }
+}
+.aboutMe {
+    &__img {
+        display: flex;
+    }
+    &__content {
+        margin-top: 20px;
+        @include desktop {
+            margin-top: 50px;
+        }
+    }
+}
+.aboutMe__btn {
+    text-align: center;
+    margin-top: 30px;
+    @include desktop {
+        text-align: left;
+    }
+}
+#aboutMe-content {
+    text-align: center;
+    @include desktop{
+        text-align: left;
+    }
+}
+#aboutMe {
+    padding-top: 70px;
+    background-color: #f1f1f1;
+    line-height: 30px;
+    @include desktop {
+        height: 100vh;
+    }
+}
+#aboutMe-content {
+    font-size: 18px;
+}
+#titleAboutMe {
+    font-family: 'Merriweather', serif;
+    font-size: 27px;
+    @include tablet {
+        font-size: 35px;
+    }
+    
+}
